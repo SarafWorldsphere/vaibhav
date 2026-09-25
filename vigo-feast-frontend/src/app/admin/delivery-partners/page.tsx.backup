@@ -1,0 +1,23 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+
+import AdminLayout from "@/components/layout/AdminLayout";
+import PageContainer from "@/components/layout/PageContainer";
+
+// other imports...
+
+export default function DeliveryPartnersPage() {
+  // states
+  // effects
+  // functions
+
+  return (
+    <AdminLayout>
+      <PageContainer>
+        {/* Delivery Partners UI */}
+      </PageContainer>
+    </AdminLayout>
+  );
+}
